@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+{% extends "basic_app/base.html" %}
+{% load myextras %}
+{% block body_block %}
+    <h1> {{ text|cuti:'hello' }}</h1>
+    <h2> {{ number }}</h2>
+{% endblock %}
